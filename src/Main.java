@@ -20,7 +20,7 @@ public class Main {
         double makePositive = makePositive(-2.5555);
         System.out.println("Die positive ist  " + makePositive);
 
-        System.out.println("write a word or sentence: ");
+        System.out.println("write a word or sentence, to check whether it is palindrome: ");
        text = scanner.nextLine();
        if(isPalindrome(text)){
            System.out.println("The text is palindrome.");
