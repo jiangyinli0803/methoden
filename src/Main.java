@@ -23,9 +23,9 @@ public class Main {
         System.out.println("write a word or sentence: ");
        text = scanner.nextLine();
        if(isPalindrome(text)){
-           System.out.println("The word is palindrome.");
+           System.out.println("The text is palindrome.");
        }else {
-           System.out.println("The word is not palindrome.");
+           System.out.println("The text is not palindrome.");
        }
 
     }
